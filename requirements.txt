@@ -3,4 +3,4 @@ tensorflow
 pillow
 numpy
 reportlab
-google-genai
+google-generativeai
