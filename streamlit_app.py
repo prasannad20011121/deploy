@@ -205,7 +205,7 @@ def generate_pdf(report_text, image, organ, organ_conf=None, finding_conf=None):
     image.convert("RGB").save(img_buf, format="PNG")
     img_buf.seek(0)
     img_reader = ImageReader(img_buf)
-    c.drawImage(img_reader, 25*mm, height - 155*mm, width=60*mm, preserveAspectRatio=True)
+    c.drawImage(img_reader, 25*mm, height - 175*mm, width=60*mm, preserveAspectRatio=True)
 
     summary_x = 100 * mm
     summary_y = height - 85 * mm
